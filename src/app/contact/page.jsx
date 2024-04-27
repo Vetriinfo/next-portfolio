@@ -17,8 +17,8 @@ const ContactPage = () => {
 
     emailjs
       .sendForm(
-        process.env.NEXT_PUBLIC_SERVICE_ID,
-        process.env.NEXT_PUBLIC_TEMPLATE_ID,
+        "service_33n6be2",
+        "template_03f7ivo",
         form.current,
         process.env.NEXT_PUBLIC_PUBLIC_KEY
       )
